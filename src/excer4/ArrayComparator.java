@@ -13,13 +13,13 @@ public class ArrayComparator {
         }
         return true;
     }
-    public  static boolean compare(int[][] array1, int[][] array2) {
+    public  static boolean compare(double[][] array3, double[][] array4) {
 
-        if (array1.length != array2.length)
+        if (array3.length != array4.length)
             return false;
 
-        for (int i = 0; i < array1.length; i++) {
-            if (array1[i] != array2[i])
+        for (int i = 0; i < array3.length; i++) {
+            if (array3[i] != array4[i])
                 return false;
         }
         return true;
